@@ -60,7 +60,7 @@
     "id": "7",
     "title": "Learn_Home",
     "picture": "./assets/Learn_Home.png",
-    "description": "Création d'une maquette sur Figma",
+    "description": "Création d'une maquette sur Figma pour un groupe scolaire",
     "link": "https://www.figma.com/file/JB4Sp6fEWE98d6JpLdbARS/lear%40Home?type=design&node-id=0-1&mode=design",
     "techno": ["./assets/figma.png"]
   },
@@ -81,7 +81,7 @@
     "id": "9",
     "title": "HrNet",
     "picture": "./assets/HrNet.png",
-    "description": "Faire passer une librairie jQuery vers React",
+    "description": "Faire passer une librairie jQuery vers React pour améliorer les performances de l'application",
     "link": "https://github.com/oubenali-mohamed/P_14_hrnet",
     "techno": [
       "./assets/html.png",
