@@ -1,0 +1,17 @@
+.containerAbout {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.aboutMe {
+  width: 50%;
+  text-align: justify;
+  color: #fff;
+  font-size: 18px;
+  padding: 0px 80px 0px 80px;
+}
+.imageAbout {
+  object-fit: cover;
+  width: 100%;
+}

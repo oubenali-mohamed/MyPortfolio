@@ -1,0 +1,47 @@
+#Card {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  border: 1px solid #97feed;
+  background: linear-gradient(45deg, #071952, #0b666a);
+}
+#picture {
+  width: 200px;
+  height: 200px;
+  object-fit: 'cover';
+  margin: auto;
+  margin-top: -30px;
+}
+#title {
+  text-align: center;
+  color: #fff;
+}
+#description {
+  text-align: center;
+  color: #fff;
+}
+.techno {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #fff;
+}
+#btnVoirPlus {
+  border: none;
+  margin-left: 30%;
+  margin-bottom: 30px;
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  background: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+  text-align: center;
+  color: #fff;
+  transition: all 1s ease;
+  background-size: 200% auto;
+}
+#btnVoirPlus:hover {
+  background-position: center right;
+}

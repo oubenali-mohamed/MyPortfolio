@@ -1,0 +1,30 @@
+#containerFooter {
+  background-color: #000;
+  border-top: 2px solid #ffffff32;
+}
+#logoReseauSociaux {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#reseauSociaux {
+  margin-right: 40px;
+  margin-top: 35px;
+}
+.logoLinkedin,
+.logoGithub,
+.logoEmail {
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+}
+#logoFooter {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+}
+.paraFooter {
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 50px;
+}

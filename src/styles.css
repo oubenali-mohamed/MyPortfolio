@@ -1,0 +1,158 @@
+.App {
+  background: linear-gradient(-45deg, #000 0%, #071952 51%, #000 100%);
+}
+.imageHome {
+  margin-left: 43%;
+  object-fit: cover;
+  width: 200px;
+  margin-bottom: 80px;
+}
+h2 {
+  color: #ffffff;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.titleMain {
+  font-weight: 700;
+  text-align: center;
+  font-size: 40px;
+  font-family: Courier New, monospace;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #314755, #26a0da);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 5s linear infinite;
+  position: relative;
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
+
+@media all and (min-width: 481px) and (max-width: 1200px) {
+  .imageHome {
+    margin-left: 37%;
+  }
+  .containerAbout {
+    width: 100%;
+  }
+  .aboutMe {
+    width: 100%;
+    padding: 0px 40px 0px 30px;
+  }
+  .imageAbout {
+    width: 100%;
+    height: 200px;
+    padding-right: 30px;
+  }
+  #Card {
+    height: 300px;
+    width: 300px;
+  }
+  #picture {
+    width: 150px;
+    height: 150px;
+  }
+  #title {
+    margin-top: -20px;
+  }
+  #description {
+    font-size: 14px;
+  }
+  .imgTechno {
+    width: 30px;
+    height: 30px;
+  }
+  #btnVoirPlus {
+    width: 100px;
+    height: 30px;
+    margin-left: 35%;
+    font-size: 14px;
+  }
+  form {
+   margin-left: 15%;
+  }
+  input,
+  textarea {
+    width: 600px;
+  }
+  .btnSubmit {
+    margin-left: 30%;
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+  }
+}
+@media all and (max-device-width: 480px) {
+  .imageHome {
+    margin-left: 25%;
+  }
+  .titleMain {
+    margin-left: 0px;
+    padding: 10px;
+    font-size: 25px;
+  }
+  .containerAbout {
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .aboutMe {
+    width: 90%;
+    padding: 0px;
+  }
+  .aboutMe > p {
+    margin-left: 35px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    font-size: 18px;
+  }
+  #Card {
+    height: 300px;
+    width: 300px;
+  }
+  #picture {
+    width: 150px;
+    height: 150px;
+  }
+  #title {
+    margin-top: -20px;
+  }
+  #description {
+    font-size: 14px;
+  }
+  .imgTechno {
+    width: 30px;
+    height: 30px;
+  }
+  #btnVoirPlus {
+    width: 100px;
+    height: 30px;
+    margin-left: 35%;
+    font-size: 14px;
+  }
+  form {
+    margin-left: 40px;
+  }
+  input,
+  textarea {
+    width: 300px;
+  }
+  .btnSubmit {
+    margin-left: 45px;
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+  }
+}

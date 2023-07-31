@@ -1,0 +1,11 @@
+#projets{
+  background: linear-gradient(-45deg, #000 0%, #071952 51%, #000 100%);
+  border-top: 1px solid #ffffff32;
+}
+#sectionProjet {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
