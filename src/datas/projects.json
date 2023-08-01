@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Reservia",
-    "picture": "assets/Reservia.png",
+    "picture": "/src/assets/Reservia.png",
     "description": "Création d'un site web pour hébergement d'immobilier en HTML et CSS, à partir d'une maquette",
     "link": "https://oubenali-mohamed.github.io/oubenali_2_16092020/",
     "techno": ["/src/assets/html.png", "/src/assets/css.png"]
@@ -59,7 +59,7 @@
   {
     "id": "6",
     "title": "Acsw",
-    "picture": "/assets/acsw.png",
+    "picture": "src/assets/acsw.png",
     "description": "Création du site web de mon agence en utilisant Wordpress",
     "link": "https://acsw.fr/",
     "techno": ["/src/assets/wordpress.png"]
