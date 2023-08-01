@@ -1,7 +1,7 @@
-import logo from '/assets/logo.png'
-import logoLinkedin from '/assets/linkedin.png'
-import logoGithub from '/assets/github.png'
-import logoEmail from '/assets/email.png'
+import logo from '../../assets/logo.png'
+import logoLinkedin from '../../assets/linkedin.png'
+import logoGithub from '../../assets/github.png'
+import logoEmail from '../../assets/email.png'
 import { NavLink } from 'react-router-dom'
 import './Footer.css'
 function Footer() {
@@ -11,7 +11,7 @@ function Footer() {
   return (
     <div id="containerFooter">
       <div id="logoReseauSociaux">
-        <NavLink to='/' id="logoFooter">
+        <NavLink to="/" id="logoFooter">
           <img id="logoFooter" src={logo} alt="logo de mon protfolio" />
         </NavLink>
         <div id="reseauSociaux">

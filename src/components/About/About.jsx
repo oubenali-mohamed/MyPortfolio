@@ -18,7 +18,7 @@ function About() {
       <div>
         <img
           className="imageAbout"
-          src="./assets/picture_home.png"
+          src="./src/assets/picture_home.png"
           alt="image home"
         />
       </div>
