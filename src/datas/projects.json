@@ -2,100 +2,100 @@
   {
     "id": "1",
     "title": "Reservia",
-    "picture": "/src/assets/Reservia.png",
+    "picture": "/assets/Reservia.png",
     "description": "Création d'un site web pour hébergement d'immobilier en HTML et CSS, à partir d'une maquette",
     "link": "https://oubenali-mohamed.github.io/oubenali_2_16092020/",
-    "techno": ["/src/assets/html.png", "/src/assets/css.png"]
+    "techno": ["/assets/html.png", "/assets/css.png"]
   },
   {
     "id": "2",
     "title": "OhMyFood",
-    "picture": "/src/assets/OhMyFood.png",
+    "picture": "/assets/OhMyFood.png",
     "description": "Création d'un site web pour un restaurant en HTML, CSS et Sass ajouter des animations",
     "link": "https://oubenali-mohamed.github.io/oubenali_3_31102020/",
     "techno": [
-      "/src/assets/html.png",
-      "./src/assets/css.png",
-      "/src/assets/sass.png"
+      "/assets/html.png",
+      "/assets/css.png",
+      "/assets/sass.png"
     ]
   },
   {
     "id": "3",
     "title": "Chouette Agence",
-    "picture": "/src/assets/agence_web.png",
+    "picture": "/assets/agence_web.png",
     "description": "Référencement d'un site web d'une agence déja existante en utilisant les bonnes pratiques SEO",
     "link": "https://oubenali-mohamed.github.io/oubenali_4_16122020/",
     "techno": [
-      "/src/assets/html.png",
-      "/src/assets/css.png",
-      "/src/assets/seo.png"
+      "/assets/html.png",
+      "/assets/css.png",
+      "/assets/seo.png"
     ]
   },
   {
     "id": "4",
     "title": "Fisheye",
-    "picture": "/src/assets/Fisheye.png",
+    "picture": "/assets/Fisheye.png",
     "description": "Création d'un site de photographe en HTML,CSS et JavaScript pour afficher et lire les données",
     "link": "https://oubenali-mohamed.github.io/Fisheye_P6/",
     "techno": [
-      "/src/assets/html.png",
-      "/src/assets/css.png",
-      "/src/assets/javascript.png"
+      "/assets/html.png",
+      "/assets/css.png",
+      "/assets/javascript.png"
     ]
   },
   {
     "id": "5",
     "title": "Kasa",
-    "picture": "/src/assets/kasa.png",
+    "picture": "/assets/kasa.png",
     "description": "Création d'un site de location d'appartement en utilisant React Js",
     "link": "https://oubenali-mohamed.github.io/kasa_p11/",
     "techno": [
-      "/src/assets/html.png",
-      "/src/assets/css.png",
-      "/src/assets/javascript.png",
-      "/src/assets/react.png"
+      "/assets/html.png",
+      "/assets/css.png",
+      "/assets/javascript.png",
+      "/assets/react.png"
     ]
   },
   {
     "id": "6",
     "title": "Acsw",
-    "picture": "src/assets/acsw.png",
+    "picture": "/assets/acsw.png",
     "description": "Création du site web de mon agence en utilisant Wordpress",
     "link": "https://acsw.fr/",
-    "techno": ["/src/assets/wordpress.png"]
+    "techno": ["/assets/wordpress.png"]
   },
   {
     "id": "7",
     "title": "Learn_Home",
-    "picture": "/src/assets/Learn_Home.png",
+    "picture": "/assets/Learn_Home.png",
     "description": "Création d'une maquette sur Figma pour un groupe scolaire",
     "link": "https://www.figma.com/file/JB4Sp6fEWE98d6JpLdbARS/lear%40Home?type=design&node-id=0-1&mode=design",
-    "techno": ["/src/assets/figma.png"]
+    "techno": ["/assets/figma.png"]
   },
   {
     "id": "8",
     "title": "SportSee",
-    "picture": "/src/assets/SportSee.png",
+    "picture": "/assets/SportSee.png",
     "description": "Création d'un tableau de bord qui permet à l'utilisateur de suivre le nombre de sessions réalisées.",
     "link": "https://github.com/oubenali-mohamed/SportSee_p12",
     "techno": [
-      "/src/assets/html.png",
-      "/src/assets/css.png",
-      "/src/assets/javascript.png",
-      "/src/assets/react.png"
+      "/assets/html.png",
+      "/assets/css.png",
+      "/assets/javascript.png",
+      "/assets/react.png"
     ]
   },
   {
     "id": "9",
     "title": "HrNet",
-    "picture": "/src/assets/HrNet.png",
+    "picture": "/assets/HrNet.png",
     "description": "Faire passer une librairie jQuery vers React pour améliorer les performances de l'application",
     "link": "https://github.com/oubenali-mohamed/P_14_hrnet",
     "techno": [
-      "/src/assets/html.png",
-      "/src/assets/css.png",
-      "/src/assets/javascript.png",
-      "/src/assets/react.png"
+      "/assets/html.png",
+      "/assets/css.png",
+      "/assets/javascript.png",
+      "/assets/react.png"
     ]
   }
 ]

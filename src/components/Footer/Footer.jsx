@@ -1,7 +1,7 @@
-import logo from '../../assets/logo.png'
-import logoLinkedin from '../../assets/linkedin.png'
-import logoGithub from '../../assets/github.png'
-import logoEmail from '../../assets/email.png'
+import logo from '/assets/logo.png'
+import logoLinkedin from '/assets/linkedin.png'
+import logoGithub from '/assets/github.png'
+import logoEmail from '/assets/email.png'
 import { NavLink } from 'react-router-dom'
 import './Footer.css'
 function Footer() {

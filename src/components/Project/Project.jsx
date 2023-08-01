@@ -39,12 +39,4 @@ Project.propTypes = {
 }
 export default Project
 
-{
-  /* <div id="Card">
-      <h3 id='title'>{title} </h3>
-      <NavLink to={detailLink}>
-        <img id="picture" src={picture} alt="projet" />
-      </NavLink>
-      <p id='description'>{description}</p>
-    </div> */
-}
+

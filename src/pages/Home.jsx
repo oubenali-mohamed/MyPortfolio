@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import AllProjects from '../components/AllProjects/AllProjects'
 import Contact from '../components/Contact/Contact'
 import About from '../components/About/About'
-import imageHome from '../assets/MyProfilPicture.png'
+import imageHome from '/assets/MyProfilPicture.png'
 import '../styles.css'
 function Home() {
   return (
