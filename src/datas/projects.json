@@ -13,7 +13,11 @@
     "picture": "/src/assets/OhMyFood.png",
     "description": "Création d'un site web pour un restaurant en HTML, CSS et Sass ajouter des animations",
     "link": "https://oubenali-mohamed.github.io/oubenali_3_31102020/",
-    "techno": ["/src/assets/html.png", "./src/assets/css.png", "/src/assets/sass.png"]
+    "techno": [
+      "/src/assets/html.png",
+      "./src/assets/css.png",
+      "/src/assets/sass.png"
+    ]
   },
   {
     "id": "3",
@@ -21,7 +25,11 @@
     "picture": "/src/assets/agence_web.png",
     "description": "Référencement d'un site web d'une agence déja existante en utilisant les bonnes pratiques SEO",
     "link": "https://oubenali-mohamed.github.io/oubenali_4_16122020/",
-    "techno": ["/src/assets/html.png", "/src/assets/css.png", "/src/assets/seo.png"]
+    "techno": [
+      "/src/assets/html.png",
+      "/src/assets/css.png",
+      "/src/assets/seo.png"
+    ]
   },
   {
     "id": "4",
@@ -51,7 +59,7 @@
   {
     "id": "6",
     "title": "Acsw",
-    "picture": "/src/assets/acsw.png",
+    "picture": "./src/assets/acsw.png",
     "description": "Création du site web de mon agence en utilisant Wordpress",
     "link": "https://acsw.fr/",
     "techno": ["/src/assets/wordpress.png"]
