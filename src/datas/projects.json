@@ -59,7 +59,7 @@
   {
     "id": "6",
     "title": "Acsw",
-    "picture": "./src/assets/acsw.png",
+    "picture": "/assets/acsw.png",
     "description": "Création du site web de mon agence en utilisant Wordpress",
     "link": "https://acsw.fr/",
     "techno": ["/src/assets/wordpress.png"]
