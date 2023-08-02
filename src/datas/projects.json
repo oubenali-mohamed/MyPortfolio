@@ -3,7 +3,7 @@
     "id": "1",
     "title": "Reservia",
     "picture": "/assets/Reservia.png",
-    "description": "Création d'un site web pour hébergement d'immobilier en HTML et CSS, à partir d'une maquette",
+    "description": "Création d'un site web d'hébergement immobilier en HTML et CSS, à partir d'une maquette",
     "link": "https://oubenali-mohamed.github.io/oubenali_2_16092020/",
     "techno": ["/assets/html.png", "/assets/css.png"]
   },
