@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="containerAbout">
       <div className="aboutMe">
-        <p className='presentation'>
+        <p>
           Passionné par le développement web, je suis développeur Junior
           JavaScript/React en quête de nouvelles opportunités. Ma formation m'a
           permis d'acquérir des compétences en développement et comprendre les

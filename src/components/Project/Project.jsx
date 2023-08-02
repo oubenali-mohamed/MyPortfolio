@@ -23,8 +23,12 @@ function Project({ title, picture, description, link, id }) {
       </div>
 
       <NavLink className="btnVoirPlus" to={link} target="_blank">
-        <button id="btnVoirPlus">Voir Plus</button>
+        <button id="btnVoirPlus">Voir</button>
       </NavLink>
+      <span className="top"></span>
+      <span className="right"></span>
+      <span className="bottom"></span>
+      <span className="left"></span>
     </div>
   )
 }

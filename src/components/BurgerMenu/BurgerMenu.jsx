@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { FiMenu, FiX } from 'react-icons/fi'
+import { Menu, X } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import './BurgerMenu.css'
 
@@ -13,14 +13,14 @@ const BurgerMenu = () => {
   return (
     <div className="burger-menu">
       {isOpen ? (
-        <FiX className="icon" onClick={toggleMenu} />
+        <X className='icon' color="#fff" size={49} onClick={toggleMenu} />
       ) : (
-        <FiMenu className="icon" onClick={toggleMenu} />
+        <Menu className='icon' color="#fff" size={48} onClick={toggleMenu} />
       )}
       {isOpen && (
         <ul className="menu-links">
           <li>
-            <Link to="/" className="lien"  onClick={toggleMenu}>
+            <Link to="/" className="lien" onClick={toggleMenu}>
               Accueil
             </Link>
           </li>
