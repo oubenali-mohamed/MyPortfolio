@@ -1,6 +1,6 @@
 import { useForm } from 'react-hook-form'
 import emailjs from '@emailjs/browser'
-import './Contact.css'
+import '/src/styles.css'
 
 function Contact() {
   const templateId = import.meta.env.VITE_TEMPLATE_ID
@@ -44,14 +44,20 @@ function Contact() {
 
   return (
     <div id="formulaire">
-      <h2>Contactez Moi</h2>
-      <form onSubmit={handleSubmit(onSubmit)}>
+      <h2 className="text-xl text-white text-center pt-11 pb-11 md:text-3xl">
+        Contactez Moi
+      </h2>
+      <form id="formulaire" onSubmit={handleSubmit(onSubmit)}>
         <div className="form">
-          <label className="label" htmlFor="lastname">
+          <label
+            className="label text-xl text-white ml-8 md:text-2xl md:ml-48 lg:ml-96"
+            htmlFor="lastname"
+          >
             Nom:
           </label>
           <br />
           <input
+            className="w-5/6 h-10 ml-8 rounded-md md:w-3/6 md:ml-48 lg:ml-96"
             {...register('lastname', {
               required: true,
               minLength: 3,
@@ -60,31 +66,37 @@ function Contact() {
             })}
           />
           {errors?.lastname?.type === 'required' && (
-            <p className="msgError">Ce champ est requis</p>
+            <p className="msgError ml-8 pt-2 text-red-500 md:ml-48 lg:ml-96">
+              Ce champ est requis
+            </p>
           )}
           {errors?.lastname?.type === 'minLength' && (
-            <p className="msgError">
+            <p className="msgError  ml-8 pt-2 text-red-500 md:ml-48 lg:ml-96">
               Votre nom doit contenir plus de 3 caractères
             </p>
           )}
           {errors?.lastname?.type === 'maxLength' && (
-            <p className="msgError">
+            <p className="msgError  ml-8 pt-2 text-red-500 md:ml-48 lg:ml-96">
               Votre nom ne peut pas etre supérieur à 20 caractères
             </p>
           )}
           {errors?.lastname?.type === 'pattern' && (
-            <p className="msgError">
+            <p className="msgError  ml-8 pt-2 text-red-500 md:ml-48 lg:ml-96">
               Votre nom ne peut pas contenir de chiffres
             </p>
           )}
         </div>
         <br />
         <div>
-          <label className="label" htmlFor="firstname">
+          <label
+            className="label ml-8 text-xl text-white md:text-2xl md:ml-48 lg:ml-96"
+            htmlFor="firstname"
+          >
             Prénom:
           </label>
           <br />
           <input
+            className="w-5/6 h-10 ml-8 rounded-md md:w-3/6 md:ml-48 lg:ml-96"
             {...register('firstname', {
               required: true,
               minLength: 3,
@@ -93,31 +105,37 @@ function Contact() {
             })}
           />
           {errors?.firstname?.type === 'required' && (
-            <p className="msgError">Ce champ est requis</p>
+            <p className="msgError  ml-8 pt-2 text-red-500 md:ml-48 lg:ml-96">
+              Ce champ est requis
+            </p>
           )}
           {errors?.firstname?.type === 'minLength' && (
-            <p className="msgError">
+            <p className="msgError  ml-8 pt-2 text-red-500 md:ml-48 lg:ml-96">
               Votre prénom doit contenir plus de 3 caractères
             </p>
           )}
           {errors?.firstname?.type === 'maxLength' && (
-            <p className="msgError">
+            <p className="msgError  ml-8 pt-2 text-red-500 md:ml-48 lg:ml-96">
               Votre prénom ne peut pas etre supérieur à 20 caractères
             </p>
           )}
           {errors?.firstname?.type === 'pattern' && (
-            <p className="msgError">
+            <p className="msgError  ml-8 pt-2 text-red-500 md:ml-48 lg:ml-96">
               Votre prénom ne peut pas contenir de chiffres
             </p>
           )}
         </div>
         <br />
         <div>
-          <label className="label" htmlFor="email">
+          <label
+            className="label ml-8 text-xl text-white md:ml-48 md:text-2xl lg:ml-96"
+            htmlFor="email"
+          >
             Email:
           </label>
           <br />
           <input
+            className="w-5/6 h-10 ml-8 rounded-md md:ml-48 md:w-3/6 lg:ml-96"
             {...register('email', {
               required: true,
               maxLength: 20,
@@ -125,51 +143,70 @@ function Contact() {
             })}
           />
           {errors?.email?.type === 'required' && (
-            <p className="msgError">Ce champ est requis</p>
+            <p className="msgError  ml-8 pt-2 text-red-500 md:ml-48 lg:ml-96">
+              Ce champ est requis
+            </p>
           )}
           {errors?.email?.type === 'pattern' && (
-            <p className="msgError">Votre email est invalide</p>
+            <p className="msgError  ml-8 pt-2 text-red-500 md:ml-48 lg:ml-96">
+              Votre email est invalide
+            </p>
           )}
         </div>
         <br />
         <div>
-          <label className="label" htmlFor="subject">
+          <label
+            className="label text-xl ml-8 text-white md:ml-48 md:text-2xl lg:ml-96"
+            htmlFor="subject"
+          >
             Sujet:
           </label>
           <br />
           <input
+            className="w-5/6 h-10 ml-8 rounded-md md:ml-48 md:w-3/6 lg:ml-96"
             {...register('subject', {
               required: true,
               minLength: 10,
             })}
           />
           {errors?.subject?.type === 'minLength' && (
-            <p className="msgError">
+            <p className="msgError  ml-8 pt-2 text-red-500 md:ml-48 lg:ml-96">
               Ce champ doit contenir un minimum de 10 caractères
             </p>
           )}
           {errors?.subject?.type === 'required' && (
-            <p className="msgError">Ce champ est requis</p>
+            <p className="msgError  ml-8 pt-2 text-red-500 md:ml-48 lg:ml-96">
+              Ce champ est requis
+            </p>
           )}
         </div>
         <br />
         <div>
-          <label className="label" htmlFor="message">
+          <label
+            className="label text-xl ml-8 text-white md:ml-48 md:text-2xl lg:ml-96"
+            htmlFor="message"
+          >
             Votre Message:
           </label>
           <br />
           <textarea
+            className="w-5/6 ml-8 rounded-md md:ml-48 md:w-3/6 lg:ml-96"
             rows={10}
             {...register('message', {
               required: true,
             })}
           />
           {errors?.message?.type === 'required' && (
-            <p className="msgError">Ce champ est requis</p>
+            <p className="msgError  ml-8 pt-2 text-red-500 md:ml-48 lg:ml-96">
+              Ce champ est requis
+            </p>
           )}
         </div>
         <br />
-        <input type="submit" className="btnSubmit" />
+        <input
+          type="submit"
+          className="btnSubmit w-52 h-10 rounded-md text-center text-white mb-8 border-0 ml-20 md:ml-48 md:w-3/6 md:cursor-pointer lg:ml-96"
+        />
       </form>
     </div>
   )

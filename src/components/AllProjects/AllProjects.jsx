@@ -1,11 +1,13 @@
 import Project from '../../components/Project/Project'
 import dataProject from '../../datas/projects.json'
-import './AllProjects.css'
+
 function AllProjects() {
   return (
-    <div id="projets">
-      <h2 className="titleProjet">Mes Projets</h2>
-      <div id="sectionProjet">
+    <div id="projets" className="flex-col md:flex-row border-t border-gray-100">
+      <h2 className="titleProjet text-3xl font-bold text-center text-white mt-10 mb-10">
+        Mes Projets
+      </h2>
+      <div id="sectionProjet" className="flex flex-wrap justify-around">
         {dataProject.map((projet, id) => (
           <Project
             key={`${projet.title}-${id}`}

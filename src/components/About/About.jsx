@@ -1,10 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
-import './About.css'
+
 function About() {
   return (
-    <div className="containerAbout">
-      <div className="aboutMe">
-        <p>
+    <div className="containerAbout flex flex-col md:flex-row justify-between pb-20">
+      <div className="aboutMe w-full md:w-1/2 ">
+        <p className="text-justify text-md text-white pr-4 pl-4">
           Passionné par le développement web, je suis développeur Junior
           JavaScript/React en quête de nouvelles opportunités. Ma formation m'a
           permis d'acquérir des compétences en développement et comprendre les
@@ -15,12 +15,8 @@ function About() {
           d'échanger avec vous.
         </p>
       </div>
-      <div>
-        <img
-          className="imageAbout"
-          src="/assets/picture_home.png"
-          alt="image home"
-        />
+      <div className="imageAbout w-full md:w-1/2 md:pl-32 md:my-auto lg:-mt-14  ">
+        <img src="/assets/picture_home.png" alt="image home" />
       </div>
     </div>
   )
