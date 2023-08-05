@@ -23,7 +23,7 @@ function Project({ title, picture, description, link, id }) {
         {description}
       </p>
 
-      <div className="techno flex flex-row justify-around mt-2">
+      <div className="techno flex flex-row justify-around mt-2 mb-2">
         {technoProjet.map((techno, index) => (
           <p key={index}>
             <img
