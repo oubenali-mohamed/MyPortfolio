@@ -3,7 +3,7 @@ import dataProject from '../../datas/projects.json'
 
 function AllProjects() {
   return (
-    <div id="projets" className="flex-col md:flex-row border-t border-gray-100">
+    <div id="projets" className="flex-col md:flex-row border-t border-black dark:border-gray-100">
       <h2 className="titleProjet text-3xl font-bold text-center text-white mt-10 mb-10">
         Mes Projets
       </h2>

@@ -43,12 +43,12 @@ function Contact() {
   }
 
   return (
-    <div id="formulaire">
+    <div className=' bg-gray-400 border-t border-black dark:bg-black dark:border-gray-100' id="formulaire">
       <h2 className="text-xl text-white text-center pt-11 pb-11 md:text-3xl">
         Contactez Moi
       </h2>
-      <form id="formulaire" onSubmit={handleSubmit(onSubmit)}>
-        <div className="form">
+      <form  id="formulaire" onSubmit={handleSubmit(onSubmit)}>
+        <div className="form ">
           <label
             className="label text-xl text-white ml-8 md:text-2xl md:ml-48 lg:ml-96"
             htmlFor="lastname"
