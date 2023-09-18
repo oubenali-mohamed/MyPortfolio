@@ -1,7 +1,7 @@
 import { MoonStar } from 'lucide-react'
 
-const App = () => {
+const DarkMode = () => {
   return <MoonStar className=" absolute right-24 -mt-4 " size={30} color="#fff" />
 }
 
-export default App
+export default DarkMode
