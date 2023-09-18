@@ -44,13 +44,13 @@ function Contact() {
 
   return (
     <div className=' bg-gray-400 border-t border-black dark:bg-black dark:border-gray-100' id="formulaire">
-      <h2 className="text-xl text-white text-center pt-11 pb-11 md:text-3xl">
+      <h2 className="text-xl text-black  text-center pt-11 pb-11 md:text-3xl dark:text-white">
         Contactez Moi
       </h2>
       <form  id="formulaire" onSubmit={handleSubmit(onSubmit)}>
         <div className="form ">
           <label
-            className="label text-xl text-white ml-8 md:text-2xl md:ml-48 lg:ml-96"
+            className="label text-xl text-black ml-8 md:text-2xl md:ml-48 lg:ml-96 dark:text-white"
             htmlFor="lastname"
           >
             Nom:
@@ -89,7 +89,7 @@ function Contact() {
         <br />
         <div>
           <label
-            className="label ml-8 text-xl text-white md:text-2xl md:ml-48 lg:ml-96"
+            className="label ml-8 text-xl text-black md:text-2xl md:ml-48 lg:ml-96 dark:text-white"
             htmlFor="firstname"
           >
             Prénom:
@@ -128,7 +128,7 @@ function Contact() {
         <br />
         <div>
           <label
-            className="label ml-8 text-xl text-white md:ml-48 md:text-2xl lg:ml-96"
+            className="label ml-8 text-xl text-black md:ml-48 md:text-2xl lg:ml-96 dark:text-white"
             htmlFor="email"
           >
             Email:
@@ -156,7 +156,7 @@ function Contact() {
         <br />
         <div>
           <label
-            className="label text-xl ml-8 text-white md:ml-48 md:text-2xl lg:ml-96"
+            className="label text-xl ml-8 text-black md:ml-48 md:text-2xl lg:ml-96 dark:text-white"
             htmlFor="subject"
           >
             Sujet:
@@ -183,7 +183,7 @@ function Contact() {
         <br />
         <div>
           <label
-            className="label text-xl ml-8 text-white md:ml-48 md:text-2xl lg:ml-96"
+            className="label text-xl ml-8 text-black md:ml-48 md:text-2xl lg:ml-96 dark:text-white"
             htmlFor="message"
           >
             Votre Message:
