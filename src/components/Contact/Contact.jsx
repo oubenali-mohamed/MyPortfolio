@@ -43,8 +43,8 @@ function Contact() {
   }
 
   return (
-    <div className=' bg-gray-400 border-t border-black dark:bg-black dark:border-gray-100' id="formulaire">
-      <h2 className="text-xl text-black  text-center pt-11 pb-11 md:text-3xl dark:text-white">
+    <div className=' bg-slate-300  border-t border-black dark:bg-black dark:border-gray-100' id="formulaire">
+      <h2 className="text-xl text-black font-bold   text-center pt-11 pb-11 md:text-3xl dark:text-white">
         Contactez Moi
       </h2>
       <form  id="formulaire" onSubmit={handleSubmit(onSubmit)}>
@@ -57,7 +57,7 @@ function Contact() {
           </label>
           <br />
           <input
-            className="w-5/6 h-10 ml-8 rounded-md md:w-3/6 md:ml-48 lg:ml-96"
+            className="w-5/6 h-10 ml-8 rounded-md md:w-3/6 md:ml-48 lg:ml-96 border border-black"
             {...register('lastname', {
               required: true,
               minLength: 3,
@@ -96,7 +96,7 @@ function Contact() {
           </label>
           <br />
           <input
-            className="w-5/6 h-10 ml-8 rounded-md md:w-3/6 md:ml-48 lg:ml-96"
+            className="w-5/6 h-10 ml-8 rounded-md md:w-3/6 md:ml-48 lg:ml-96 border border-black"
             {...register('firstname', {
               required: true,
               minLength: 3,
@@ -135,7 +135,7 @@ function Contact() {
           </label>
           <br />
           <input
-            className="w-5/6 h-10 ml-8 rounded-md md:ml-48 md:w-3/6 lg:ml-96"
+            className="w-5/6 h-10 ml-8 rounded-md md:ml-48 md:w-3/6 lg:ml-96 border border-black"
             {...register('email', {
               required: true,
               maxLength: 20,
@@ -163,7 +163,7 @@ function Contact() {
           </label>
           <br />
           <input
-            className="w-5/6 h-10 ml-8 rounded-md md:ml-48 md:w-3/6 lg:ml-96"
+            className="w-5/6 h-10 ml-8 rounded-md md:ml-48 md:w-3/6 lg:ml-96 border border-black"
             {...register('subject', {
               required: true,
               minLength: 10,
@@ -190,7 +190,7 @@ function Contact() {
           </label>
           <br />
           <textarea
-            className="w-5/6 ml-8 rounded-md md:ml-48 md:w-3/6 lg:ml-96"
+            className="w-5/6 ml-8 rounded-md md:ml-48 md:w-3/6 lg:ml-96 border border-black"
             rows={10}
             {...register('message', {
               required: true,

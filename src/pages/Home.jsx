@@ -29,7 +29,7 @@ function Home() {
     setTheme(theme === 'dark' ? 'light' : 'dark')
   }
   return (
-    <div className="App bg-gray-400  dark:bg-black ">
+    <div className="App bg-slate-300  dark:bg-black ">
       <button className="dark:text-red" onClick={handleThemeDarkMode}>
         <DarkMoon />
       </button>
