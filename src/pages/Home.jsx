@@ -7,9 +7,23 @@ import '../styles.css'
 import ScroolTo from '../components/ScrollTo/ScroolTo'
 
 function Home() {
+
+  const handleScroolTo = () => {
+    const scrollTo = document.querySelector('.scrollTo')
+
+    scrollTo.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      })
+    })
+  }
   return (
     <div className="App bg-slate-300  dark:bg-black ">
-      <ScroolTo />
+      <button className=" scrollTo fixed bottom-5 right-5 cursor-pointer" onClick={handleScroolTo}>
+        <ScroolTo />
+      </button>
+
       <img
         className="imageHome w-52 mx-auto mb-40 pt-20 object-cover   "
         src={imageHome}
