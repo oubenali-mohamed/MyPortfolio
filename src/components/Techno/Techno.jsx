@@ -40,7 +40,7 @@ function Techno() {
           </div>
           <div className=" mx-auto w-1/3 bg-gray-200 rounded-full h-2.5 mb-10 dark:bg-gray-700">
             <div
-              className="bg-cyan-500 h-2.5rounded-full"
+              className="bg-cyan-500 h-2.5 rounded-full"
               style={{ width: '80%' }}
             ></div>
           </div>
