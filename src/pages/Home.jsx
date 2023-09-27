@@ -5,6 +5,7 @@ import About from '../components/About/About'
 import imageHome from '/assets/MyProfilPicture.png'
 import '../styles.css'
 import ScroolTo from '../components/ScrollTo/ScroolTo'
+import Techno from '../components/Techno/Techno'
 
 function Home() {
 
@@ -32,9 +33,9 @@ function Home() {
       <h1 className="titleMain text-5xl font-bold text-center  uppercase mb-20 -mt-11">
         developpeur web JavaScript React Js
       </h1>
-
       <About />
       <AllProjects />
+      <Techno />
       <Contact />
     </div>
   )
