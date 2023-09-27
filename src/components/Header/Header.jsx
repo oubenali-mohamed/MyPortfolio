@@ -1,10 +1,10 @@
 import logo from '/assets/logo.png'
 import { Link } from 'react-router-dom'
 import BurgerMenu from '../BurgerMenu/BurgerMenu'
-import DarkMoon from '../DarkMoon/DarkMoon'
+import ModeDark from '../ModeDark/ModeDark'
 import { useEffect, useState } from 'react'
+import ModeSun from '../ModeSun/ModeSun'
 function Header() {
-
   const [theme, setTheme] = useState(null)
 
   useEffect(() => {
@@ -39,9 +39,16 @@ function Header() {
           alt="logo de mon protfolio"
         />
       </Link>
-      <button className="dark:text-red" onClick={handleThemeDarkMode}>
-        <DarkMoon />
-      </button>
+      {theme === 'dark' ? (
+        <button onClick={handleThemeDarkMode}>
+          <ModeSun />
+        </button>
+      ) : (
+        <button onClick={handleThemeDarkMode}>
+          <ModeDark />
+        </button>
+      )}
+
       <nav id="navigation">
         <BurgerMenu />
       </nav>
