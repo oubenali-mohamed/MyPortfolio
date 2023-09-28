@@ -3,7 +3,7 @@ import React from 'react'
 function Techno() {
   return (
     <div className=" border-t border-black dark:border-gray-100">
-      <h1 className=" mt-12 mb-10 text-3xl font-bold text-center uppercase dark:text-white">
+      <h1 className=" titleTechno mt-12 mb-10 text-3xl font-bold text-center uppercase dark:text-white">
         Mes technos
       </h1>
       <div className="flex">

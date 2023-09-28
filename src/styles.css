@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 .titleMain {
   font-family: Courier New, monospace;
   background: linear-gradient(90deg, #314755, #26a0da);
@@ -44,4 +42,25 @@
 .btnSubmit:hover,
 #btnVoirPlus:hover {
   background-position: center right;
+}
+
+.titleTechno,
+.titleProjet {
+  background-image: linear-gradient(
+    -225deg,
+    #314755 0%,
+    #26a0da 51%,
+    #314755 100%
+  );
+  background-clip: border-box;
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  font-size: 30px;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
