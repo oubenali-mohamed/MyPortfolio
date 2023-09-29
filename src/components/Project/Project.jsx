@@ -16,10 +16,13 @@ function Project({ title, picture, description, link, id }) {
         src={picture}
         alt="projet"
       />
-      <h3 id="title" className="  text-white ml-28 -mt-6 text-xm md:text-2xl">
+      <h3
+        id="title"
+        className="text-center text-white  -mt-6 text-xm md:text-2xl"
+      >
         {title}
       </h3>
-      <p id="description" className="text-xm text-center text-white pt-2">
+      <p id="description" className="text-xm text-center text-white pt-2 pr-2 pl-2">
         {description}
       </p>
 
