@@ -8,20 +8,22 @@ import ScroolTo from '../components/ScrollTo/ScroolTo'
 import Techno from '../components/Techno/Techno'
 
 function Home() {
-
   const handleScroolTo = () => {
     const scrollTo = document.querySelector('.scrollTo')
 
     scrollTo.addEventListener('click', () => {
       window.scrollTo({
         top: 0,
-        behavior: 'smooth'
+        behavior: 'smooth',
       })
     })
   }
   return (
     <div className="App bg-slate-300  dark:bg-black ">
-      <button className=" scrollTo fixed bottom-5 right-5 cursor-pointer" onClick={handleScroolTo}>
+      <button
+        className=" scrollTo fixed bottom-5 right-5 cursor-pointer"
+        onClick={handleScroolTo}
+      >
         <ScroolTo />
       </button>
 
@@ -35,7 +37,6 @@ function Home() {
       </h1>
       <About />
       <AllProjects />
-      <Techno />
       <Contact />
     </div>
   )
