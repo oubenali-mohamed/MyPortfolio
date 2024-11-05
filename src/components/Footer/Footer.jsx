@@ -37,7 +37,7 @@ function Footer() {
           </NavLink>
         </div>
       </div>
-      <p className="paraFooter text-white text-center pb-4">© 2023 ACSW. All rights reserved</p>
+      <p className="paraFooter text-white text-center pb-4">© 2023 O.M All rights reserved</p>
     </div>
   )
 }

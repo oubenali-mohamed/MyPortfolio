@@ -22,7 +22,10 @@ function Project({ title, picture, description, link, id }) {
       >
         {title}
       </h3>
-      <p id="description" className="text-xm text-center text-white pt-2 pr-2 pl-2">
+      <p
+        id="description"
+        className="text-xm text-center text-white pt-2 pr-2 pl-2"
+      >
         {description}
       </p>
 
