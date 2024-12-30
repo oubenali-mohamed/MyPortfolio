@@ -46,10 +46,10 @@
   },
   {
     "id": "6",
-    "title": "Acsw",
+    "title": "WpConcept",
     "picture": "/assets/acsw.png",
-    "description": "Site web de mon agence en utilisant Wordpress",
-    "link": "https://acsw.fr/",
+    "description": "Site d'une agence web crée avec Wordpress",
+    "link": "https://www.wpconcept.fr/",
     "techno": ["/assets/wordpress.png"]
   },
   {
